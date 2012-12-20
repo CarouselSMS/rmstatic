@@ -1,0 +1,42 @@
+!!! 5
+%html
+  %head
+    %title= "Recess Mobile"
+    %meta{ :content => "", :name => "description" }
+    %meta{ :content => "", :name => "author" }
+    %meta{ :content => "3 days", :name => "revisit-after" }
+
+    %link{ :href => "http://creativecommons.org/licenses/by/3.0/", :rel => "license", :title => "Creative Commons Attribution 3.0 Unported License" }
+    %link{ :href => "/feed", :rel => "alternate", :title => "Atom", :type => "application/atom+xml" }
+    %link{ :href => "/css/bootstrap/css/bootstrap.min.css", :media => "screen", :rel => "stylesheet" }
+    %link{ :href => "/css/screen.css", :media => "screen", :rel => "stylesheet" }
+  %body
+    .container
+      %header
+        %h1 Recess Mobile
+        %h2 Doing things with SMS
+
+      %section#navigation
+        %ul
+          %li
+            %a.carouselsms{ :href => "http://carouselsms.com" }CarouselSMS
+        %ul
+          %li
+            %a.ohdontforget{ :href => "http://ohdontforget.com" }Ohdontforget
+        %ul
+          %li
+            %a.opensource{ :href => "https://github.com/CarouselSMS" }Open source
+
+      .subnav
+        %ul
+          %li
+            %a{ :href => "mailto:recessim@recessmobile.com" }Contact
+          %li
+            %a{ :href => "javascript:window.alert('A valid choice. We respect your decision.\\n\\nHere is a shark:     ~~~~~~^~~~~~')" }Don't contact
+          %li
+            %a{ :href => "http://carouselsms.com" }About
+
+      %footer
+        %p
+          &copy; Recess Mobile, Inc.
+          = Time.now.year
