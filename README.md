@@ -1,5 +1,5 @@
-Perfect Price
-=============
+Recess Mobile, static site
+==========================
 
 There's hardly anything here. A single page, static site deployed on Heroku. Uses Rack.
 
