@@ -3,6 +3,15 @@ Recess Mobile, static site
 
 There's hardly anything here. A single page, static site deployed on Heroku. Uses Rack.
 
+Usage
+=====
+
+1. Run, say, thin
+1a. Check out the sick Javascript
+2. Livereload to process the HAML and such
+3. Commit changes
+4. Push to Heroku with 'git push heroku master'
+
 License
 =======
 
